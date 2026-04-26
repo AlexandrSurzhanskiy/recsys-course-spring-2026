@@ -65,7 +65,7 @@ class Experiments:
     STICKY_ARTIST = Experiment("STICKY_ARTIST", Split.HALF_HALF)
     AA = Experiment("AA", Split.HALF_HALF)
     I2I = Experiment("I2I", Split.THREE_WAY)
-    HSTU = Experiment("HSTU", Split.HALF_HALF)
+    TWO_TOWER = Experiment("TWO_TOWER", Split.HALF_HALF)
 
     def __init__(self):
-        self.experiments = [Experiments.HSTU]
+        self.experiments = [Experiments.TWO_TOWER]

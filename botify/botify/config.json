@@ -21,10 +21,7 @@
   "REDIS_RECOMMENDATIONS_SASREC_DB": 4,
   "RECOMMENDATIONS_SASREC_FILE_PATH": "./data/sasrec_i2i.jsonl",
 
-  "REDIS_RECOMMENDATIONS_HSTU_HOST": "redis",
-  "REDIS_RECOMMENDATIONS_HSTU_PORT": 6379,
-  "REDIS_RECOMMENDATIONS_HSTU_DB": 5,
-  "RECOMMENDATIONS_HSTU_FILE_PATH": "./data/hstu_recommendations.json",
+  "TWO_TOWER_MODEL_PATH": "./data/two_tower_model.npz",
 
   "TRACKS_CATALOG": "./data/tracks.json",
   "DATA_LOG_FILE": "./log/data.json",
